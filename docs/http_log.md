@@ -1,3 +1,6 @@
+#TASK 1
+
+## Request 1
 curl.exe -i https://jsonplaceholder.typicode.com/todos/1
 
 output
@@ -33,7 +36,7 @@ alt-svc: h3=":443"; ma=86400
   "title": "delectus aut autem",
   "completed": false
 }
---------------------------------********************************------------------------------------------
+## Request 2
 input curl.exe -i https://jsonplaceholder.typicode.com/todos/2
 
 output
@@ -69,7 +72,7 @@ alt-svc: h3=":443"; ma=86400
   "title": "quis ut nam facilis et officia qui",
   "completed": false
 }
---------------------------------------------*****************************---------------------------------
+## Request-3
 input curl.exe -i https://jsonplaceholder.typicode.com/todos/999999
 
 output HTTP/1.1 404 Not Found
