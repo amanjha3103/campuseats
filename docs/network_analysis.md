@@ -1,5 +1,7 @@
-The request count-89 requests
-Total page size-4.7mb transferred
-slowest resource-all_fontawesome.min.css
-time-7.09s
+# Performance Report
+
+- **Request count:** 89 requests
+- **Total page size:** 4.7 MB transferred
+- **Slowest resource:** `all_fontawesome.min.css`
+- **Time:** 7.09s
 
