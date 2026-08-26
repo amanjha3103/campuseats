@@ -1,0 +1,75 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="HAZ7k4pWxuiugxMaRSlS">
+    <mxGraphModel dx="1084" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="50U4dbrdEgUCzj9GlfYS-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="USER SERVICE&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;OWNS: USERS&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Aman Jha&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="350" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="50U4dbrdEgUCzj9GlfYS-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CATALOGUE&lt;div&gt;SERVICE&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Owns&lt;/font&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;: Catalogue_items&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Himanshu singh&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="50U4dbrdEgUCzj9GlfYS-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ORDER SERVICE&lt;div&gt;Owns: Orders&lt;/div&gt;&lt;div&gt;Md.kaif&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="350" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="50U4dbrdEgUCzj9GlfYS-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PAYMENT SERVICE&lt;div&gt;Owns: payments&lt;/div&gt;&lt;div&gt;Aman Jha&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="610" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="50U4dbrdEgUCzj9GlfYS-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="DELIVERY SERVICE&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Owns: deliveries&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;font&gt;Himanshu singh&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="50U4dbrdEgUCzj9GlfYS-9" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;endFill=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="50U4dbrdEgUCzj9GlfYS-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="409.47" y="230" as="sourcePoint" />
+            <mxPoint x="409.47" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50U4dbrdEgUCzj9GlfYS-10" connectable="0" parent="50U4dbrdEgUCzj9GlfYS-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Get User&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.2198" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50U4dbrdEgUCzj9GlfYS-12" edge="1" parent="1" source="50U4dbrdEgUCzj9GlfYS-5" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.368;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="270" y="269.47" as="sourcePoint" />
+            <mxPoint x="190" y="269.47" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50U4dbrdEgUCzj9GlfYS-15" connectable="0" parent="50U4dbrdEgUCzj9GlfYS-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="j" vertex="1">
+          <mxGeometry relative="1" x="-0.0355" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50U4dbrdEgUCzj9GlfYS-13" edge="1" parent="1" source="50U4dbrdEgUCzj9GlfYS-5" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="50U4dbrdEgUCzj9GlfYS-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="490" y="280" as="sourcePoint" />
+            <mxPoint x="540" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50U4dbrdEgUCzj9GlfYS-14" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.431;entryY=-0.022;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="409.47" y="325.65999999999997" as="sourcePoint" />
+            <mxPoint x="409.47" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50U4dbrdEgUCzj9GlfYS-18" connectable="0" parent="50U4dbrdEgUCzj9GlfYS-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Create delivery&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0393" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50U4dbrdEgUCzj9GlfYS-21" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="390" as="sourcePoint" />
+            <mxPoint x="120" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50U4dbrdEgUCzj9GlfYS-22" connectable="0" parent="50U4dbrdEgUCzj9GlfYS-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="check Item" vertex="1">
+          <mxGeometry relative="1" x="0.0047" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
